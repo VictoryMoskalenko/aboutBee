@@ -1,0 +1,153 @@
+html, body, h1, h2, h3, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: whitesmoke;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 40px;
+	border: 1px solid black;
+}
+
+header {
+
+}
+
+.header-block {
+	display: flex;
+	justify-content: space-between;
+	line-height: 120px;
+	box-sizing: border-box;
+/*	margin-bottom: -15px; */  
+	border: 1px solid black;
+
+}
+
+.header-logo {
+	font-size: 52px;
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	letter-spacing: -3px;
+	color: black;
+	margin-left: 30px;
+	border: 1px solid black;
+}
+
+.header-slogan {
+	margin-right: 30px;
+	color: #999;
+	font-family: Georgia, Times, serif;
+	font-size: 20px;
+	letter-spacing: -1px;
+	border: 1px solid black;
+	
+
+}
+nav  {
+	padding: 0;
+	line-height: 80px;
+	background: #EA9B23;
+	margin-bottom: 60px;
+	border: 1px solid black;
+
+	
+}
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid black;
+}
+nav li {
+	list-style-type: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: #F7DAAF;
+	font-size: 16px;
+	font-weight: bold;
+
+	font-family: 'Raleway: 800', sans-serif;
+}
+nav a.active,
+nav a:hover {
+	color: #fff;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+article {
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+article a:hover {
+	text-decoration: none;
+}
+aside, section {
+	box-sizing: border-box;
+	padding: 60px 30px 75px;
+}
+
+aside h3 {
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+aside li {
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+aside ul,
+aside p {
+	margin-bottom: 60px;
+}
+aside a,
+section a,
+.button-orange,
+ footer a {
+ 	font-family: 'Raleway', sans-serif;
+ 	font-size: 13px;
+	color: orange;
+	cursor: pointer;
+}
+
+section h2 {
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.column-right p {
+	margin-bottom: 37px;
+}
+
+.column-right p:first-child {
+	margin-bottom: 45px;
+}
+
+.button-orange {
+	background: #fff;
+	line-height: 27px;
+	border: 1px solid #ddd;
+	margin-bottom: 70px;
+
+}
+
+.button-orange:hover {
+	background: #ddd;
+}
+footer {
+	line-height: 105px;
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+
