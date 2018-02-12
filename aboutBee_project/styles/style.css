@@ -224,14 +224,19 @@ footer p {
 	aside {
 		padding: 30px 30px 0;
 	}
-	 section {
+	section {
 	 	padding: 0 30px; 
 	 }
-	 .button-orange {
+	.button-orange {
 	 	margin-bottom: 40px;
 	 }
 }
 
 @media screen and (min-width: 480px) and (max-width: 800px) {
-
+	 .aside-text {
+	 	margin-bottom: 50px;
+	 }
+	 .button-orange {
+	 	margin-bottom: 30px;
+	 }
 }
